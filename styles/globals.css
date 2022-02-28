@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+main {
 	@apply font-sans bg-gradient-to-r from-emerald-300 to-sky-500 w-full h-screen;
+}
+
+input {
+	@apply w-full bg-transparent border border-slate-200 bg-slate-100 ring-0 rounded-xl p-2 focus:bg-white transition-all duration-300 ease-in-out;
+}
+
+button {
+	@apply bg-transparent border border-slate-200  rounded-xl px-4 py-2 hover:bg-slate-200 focus:bg-white transition-all duration-300 ease-in-out;
+}
+
+hr {
+	@apply h-[0.2em] w-full bg-slate-200 rounded-xl;
+}
+
+form {
+	@apply flex flex-col justify-center items-center space-y-4 w-full p-2;
+}
+
+h1 {
+	@apply font-bold text-3xl;
+}
+
+.choice {
+	@apply text-xl bg-slate-200 hover:bg-slate-300 shadow-lg;
+}
+
+.choice:disabled {
+	@apply opacity-50 cursor-not-allowed;
 }
