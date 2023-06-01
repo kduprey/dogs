@@ -9,7 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@fontsource/inter": "^5.0.1",
+		"@fontsource/inter": "^5.0.2",
 		"@fontsource/roboto": "^5.0.2",
 		"firebase": "^9.22.1",
 		"next": "13.4.4",
