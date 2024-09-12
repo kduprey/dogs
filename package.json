@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"@fontsource/inter": "^5.0.21",
-		"@fontsource/roboto": "^5.0.15",
+		"@fontsource/roboto": "^5.1.0",
 		"firebase": "^10.13.1",
 		"next": "14.2.9",
 		"react": "18.3.1",
