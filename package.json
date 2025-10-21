@@ -18,7 +18,7 @@
 		"react-firebase-hooks": "^5.1.1"
 	},
 	"devDependencies": {
-		"@types/node": "24.9.0",
+		"@types/node": "24.9.1",
 		"@types/react": "19.2.2",
 		"autoprefixer": "^10.4.21",
 		"eslint": "9.38.0",
